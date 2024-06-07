@@ -1,6 +1,5 @@
 import React  from 'react'
 import { useEffect } from 'react'
-
 import Favourite from './Favourite'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
@@ -40,5 +39,3 @@ const Data = ({movies, setMovies}) =>{
 
 export default Data;
 
-            // <Favourite movName={movietitle} movId={movie.id}/>
-    // {error && <h2>No Movies Found </h2>}

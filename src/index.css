@@ -3,10 +3,7 @@
 body {
   margin: 0;
   background-color : #F5F5F5;
-  font-family: 'DM Sans', 'Ubuntu','Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'DM Sans', 'Ubuntu','Helvetica Neue',sans-serif;
 }
 
 
@@ -104,9 +101,3 @@ body {
 .content h1 p a {
   margin-bottom: auto;
 }
-/* .content { */
-  /* align-self: flex-end; */
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* left: 0; */
-/* } */
