@@ -1,0 +1,28 @@
+// MovieCard.js
+import React from 'react';
+// import Thumb from '../imgs/demo.jpg'
+import './MovieCard.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+
+const MovieCard = () => {
+  return (
+    <div className="movie-card">
+      <img
+        src="https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg" // replace this with the actual path to your image
+        alt="Interstellar"
+        className="movie-card-image"
+      />
+      <div className="movie-card-details">
+        <div className="movie-card-year">2016</div>
+        <div className="movie-card-title">Interstellar</div>
+        <div className="movie-card-genres">Adventure, Horror</div>
+      </div>
+      <div className="movie-card-favorite">
+        <FontAwesomeIcon icon={faHeart} />
+      </div>
+    </div>
+  );
+};
+
+export default MovieCard;

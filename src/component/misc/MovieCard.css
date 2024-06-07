@@ -1,0 +1,44 @@
+/* MovieCard.css */
+.movie-card {
+  position: relative;
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.movie-card-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card-details {
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+}
+
+.movie-card-year {
+  font-size: 12px;
+  color: gray;
+}
+
+.movie-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.movie-card-genres {
+  font-size: 14px;
+  color: #666;
+}
+
+.movie-card-favorite {
+  background-color: white;
+  padding: 10px;
+  border-radius: 100px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: red;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  margin: 0;
+  background-color : #F5F5F5;
+  font-family: 'DM Sans', 'Ubuntu','Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; */
+  padding: 32px 98px 32px 98px;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  /* width: 50px; */
+  /* height: 50px; */
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.search-bar {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.favorites-button {
+  padding: 8px 15px;
+  background-color: #FF0059;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorites-button:hover {
+  background-color: #D3004A;
+}
+
+
+
+.parentHero{
+  padding-top : 50px;
+}
+
+.hero {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  width: 90%;
+  height: 658px;
+  align-items : flex-end;
+  /* align-items: bottom; */
+  /* width: Fill (1,243px)px; */
+  /* height: Hug (658px)px; */
+  /* padding : 100px; */
+  /* height : 100px; */
+  /* gap: 8px; */
+  /* opacity: 0px; */
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  bottom : 0;
+  padding : 0;
+  /* position : absolute; */
+  width: 100%;
+  color: white;
+  margin-inline: auto;
+  /* margin : 10%; */
+  text-align: left;
+  justify-content: left;
+  font-family : "DM Sans";
+  align-items: left;
+  margin-bottom : 10%;
+}
+
+.content h1 p a {
+  margin-bottom: auto;
+}
+/* .content { */
+  /* align-self: flex-end; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* left: 0; */
+/* } */
