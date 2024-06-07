@@ -1,7 +1,8 @@
 import React from 'react';
-import ImgHero from '../imgs/reel1.jpg'
+import ImgHero from '../imgs/demo1.png'
 import './ImagBg.css'
 // import Logo from './logo.svg'
+//
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,8 +10,8 @@ const ImagBg =()=> {
     return (
       <div className="parentHero">
         <section className="hero" style={{ backgroundImage: `linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
   ),
 url(${ImgHero})` }}>
           <div className="content">

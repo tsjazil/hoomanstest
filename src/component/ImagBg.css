@@ -33,4 +33,6 @@ button{
   text-align: center;
 }
 
-
+.hero{
+background-size: cover;
+}
